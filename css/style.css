@@ -1,0 +1,60 @@
+body {
+    background-color: #ffb6c1;
+    text-align: center;
+ }
+
+ #wallpaper {
+     text-align: left;
+ }
+ 
+ #title {
+   font-size: 20pt;
+   color: black;
+   font-family: cursive;
+ }
+ 
+ #saveInput {
+     margin-left: 20px;
+ }
+ 
+ #words p {
+     padding-right: 20px;
+ }
+ 
+ #words {
+     padding-top: 15px;
+ }
+ 
+ #generate, #save{
+     margin:auto;
+     margin-top: 10px;
+ }
+
+ #p1 button, #p2 button {
+     margin-left: 15px;
+ }
+
+ #ins, #selins, #resins, #title, #inputins {
+    text-shadow: 2px 2px #AF9898;
+ }
+
+ #ins, #selins, #resins {
+     text-decoration: underline;
+ }
+
+ #showDef p {
+     text-align: left;
+ }
+
+#showDef {
+    margin-left: auto;
+    width: 70%;
+}
+
+#inputins{
+    font-size: 20px;
+}
+
+
+
+

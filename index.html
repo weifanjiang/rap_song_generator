@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Rap Song Generator</title>
+    <script src="js/script.js"></script>
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+  </head>
+
+  <body id="upper">
+    <header id="title">
+        A Pho Than Brother Production.
+    </header>
+
+    <p id="inputins"> Input a lyric to begin with: </p>
+    <input id="userInput" type="text" />
+    <button id="saveInput">Save Input</button>
+
+    <div id="words"></div>
+    <button id="generate">Generate!</button>
+
+    <p id="ins"></p>
+    
+    <div id="main">
+    </div>
+    <div id="showDef"></div>
+
+    <button id="save">Done!</button>
+    <p id="more">
+      Now, you can click "Generate" to regenerate a new lyric that matches the previous rhyme pattern; <br />
+      you can also enter a new lyric in the beginning or select different words to start a new rhyme pattern.
+    </p>
+
+    <div id="result">
+    <hr />
+    <p id="resins">This is your song:</p>
+    </div>
+
+    <div id="saving">
+    <hr />
+    <p id="enterName">Enter a name for the song: <input id="nameField" type="text" /></p>
+    <p id="enterArtist">Enter the artist of the song: <input id="artist" type="text" /></p>
+    <button id="saveSong">Save this song</button>
+    </div>
+
+    <div id="beats">
+      <hr />
+      <audio id="b" controls="controls" loop="loop">
+        <source id="audioSource" src=""></source>
+      </audio>
+      <br />
+      <button id="dropTheBeat">Drop the beat!</button>
+    </div>
+  </body>
+</html>
